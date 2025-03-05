@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo - SweetPack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Painel Administrativo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gerenciar_usuarios.html">Gerenciar Usuários</a></li>
+                <li><a href="gerenciar_produtos.html">Gerenciar Produtos</a></li>
+                <li><a href="sair.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gestão de Usuários</h2>
+            <p>Aqui você pode gerenciar todos os usuários cadastrados.</p>
+            <ul>
+                <li><a href="ver_usuarios.html">Ver Todos os Usuários</a></li>
+                <li><a href="bloquear_usuario.html">Bloquear Usuário</a></li>
+                <li><a href="adicionar_usuario.html">Adicionar Novo Usuário</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Gestão de Produtos</h2>
+            <p>Gerencie os produtos cadastrados na plataforma.</p>
+            <ul>
+                <li><a href="ver_produtos.html">Ver Todos os Produtos</a></li>
+                <li><a href="adicionar_produto.html">Adicionar Novo Produto</a></li>
+                <li><a href="remover_produto.html">Remover Produto</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SweetPack. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

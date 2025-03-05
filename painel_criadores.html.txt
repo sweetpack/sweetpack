@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Criador - SweetPack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Painel do Criador</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meus_produtos.html">Meus Produtos</a></li>
+                <li><a href="vendas.html">Minhas Vendas</a></li>
+                <li><a href="sair.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Resumo das Vendas</h2>
+            <div class="informacoes">
+                <p>Produtos vendidos: 10</p>
+                <p>Comissões: R$ 500,00</p>
+                <p>Vendas pendentes: 2</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Gerenciar Produtos</h2>
+            <ul>
+                <li><a href="adicionar_produto.html">Adicionar Novo Produto</a></li>
+                <li><a href="editar_produto.html">Editar Produto</a></li>
+                <li><a href="remover_produto.html">Remover Produto</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SweetPack. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

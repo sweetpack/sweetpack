@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Usuário - SweetPack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Painel do Usuário</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="perfil.html">Meu Perfil</a></li>
+                <li><a href="sair.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Informações do Usuário</h2>
+            <p>Aqui você pode ver suas informações, vendas e outras ações.</p>
+            <div class="informacoes">
+                <p>Saldo: R$ 100,00</p>
+                <p>Vendas realizadas: 5</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Links rápidos</h2>
+            <ul>
+                <li><a href="comprar.html">Comprar Produtos</a></li>
+                <li><a href="transacoes.html">Ver Transações</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SweetPack. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
